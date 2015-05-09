@@ -1,4 +1,14 @@
 [
-	{"author": "Adam Moore", "text": "I like this game!"},
-	{"author": "atombomb", "text": "You think this is a ***game***?"}
+    {
+        "author": "Adam Moore",
+        "text": "I like this game!"
+    },
+    {
+        "author": "atombomb",
+        "text": "You think this is a ***game***?"
+    },
+    {
+        "author": "Adam Moore",
+        "text": "No, I guess not."
+    }
 ]
