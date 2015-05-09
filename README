@@ -1,0 +1,9 @@
+mooreact
+
+a combination of two tutorials:
+
+-React and Webpack: http://jslog.com/2014/10/02/react-with-webpack-part-1/
+
+-Official intro tutorial: http://facebook.github.io/react/docs/tutorial.html
+
+I was able to complete the first, then extend it to the second, and bring that to the very last step, where I hit a snag calling the comments.json via POST. The second tutorial gives an example server.js that handles the POST call, but I am using the webpack-dev-server. It only has default settings. I'm trying to figure out how to define this response for a POST call on that route without a regular node server file.
