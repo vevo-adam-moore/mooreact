@@ -52,7 +52,7 @@
 	var CommentBox = __webpack_require__(2);
 
 	React.render(
-		React.createElement(CommentBox, {url: "comments.json", pollInterval: 2000}), 
+		React.createElement(CommentBox, {url: "data/comments.json", pollInterval: 2000}), 
 		document.getElementById('content')
 	);
 

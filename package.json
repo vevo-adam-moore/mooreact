@@ -2,11 +2,14 @@
   "name": "mooreact",
   "version": "1.0.0",
   "description": "react tutorial built by adam moore",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vevo-adam-moore/mooreact.git"
+  },
   "main": "server.js",
   "scripts": {
-    "start": "npm run serve | npm run dev",
-    "serve": "./node_modules/.bin/http-server -p 8080",
-    "dev": "webpack-dev-server --progress --colors --port 8090"
+    "dev": "webpack-dev-server --progress --colors --port 8090",
+    "packServe": "webpack && npm start"
   },
   "author": "Adam Moore",
   "license": "MIT",
@@ -22,8 +25,5 @@
     "jsx-loader": "^0.13.2",
     "webpack": "^1.8.11",
     "webpack-dev-server": "^1.8.2"
-  },
-  "scripts": {
-    "serve": "cd public webpack cd ../ node server.js"
   }
 }
